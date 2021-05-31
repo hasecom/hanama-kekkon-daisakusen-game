@@ -1,3 +1,4 @@
+import React, { Component } from 'react'
 const style ={
   position:"absolute",
 	top:"0",
@@ -9,13 +10,18 @@ const style ={
 	margin: "0",
   objectFit:"cover"
 }
-const Screen = props => {
-
-  const {name} = (props.display.filter((obj) => obj.param == props.screenId))[0];
-  return(
-    <div>
-      <img src={`${process.env.PUBLIC_URL}/images/screen/${name}.jpg`} style={style} />
-    </div>
-  )
+class Screen extends React.Component{
+  constructor(props){
+    super(props);
+    this.screenObj = (props.display.filter((obj) => obj.param === props.screenParam))[0];
   }
+  render(){
+    return(
+      <div>
+        <img src={`${process.env.PUBLIC_URL}/images/screen/${this.screenObj.name}.jpg`} style={style} />
+      </div>
+    )
+  }
+}
+
 export default Screen

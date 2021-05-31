@@ -1,8 +1,8 @@
-const Image  = [
+const ImageConstant  = [
   {
-      param:'1',
-      name:"1",
-      overview:"起動画面"
+    param:'1',
+    name:"1",
+    overview:"起動画面"
   },
   {
     param:'2',
@@ -16,4 +16,4 @@ const Image  = [
   }
 ]
 
-export default Image
+export default ImageConstant
