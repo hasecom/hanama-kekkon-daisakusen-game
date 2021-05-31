@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import React, { Component } from 'react'
+import Header from "./components/header"
+import Footer from "./components/footer"
+import GameButton from "./components/GameButton"
+import Screen from "./components/Screen"
+import Image from "./constants/Image"
+const App = () => (
+    <div id="app">
+      <Screen display={Image} screenId="1" />
+      <GameButton message="aa" />
     </div>
-  );
-}
+)
 
-export default App;
+
+export default App
