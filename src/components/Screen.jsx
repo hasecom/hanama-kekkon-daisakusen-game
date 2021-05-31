@@ -13,9 +13,9 @@ const style ={
 class Screen extends React.Component{
   constructor(props){
     super(props);
-    this.screenObj = (props.display.filter((obj) => obj.param === props.screenParam))[0];
   }
   render(){
+    this.screenObj = (this.props.display.filter((obj) => obj.param === this.props.screenParam))[0];
     return(
       <div>
         <img src={`${process.env.PUBLIC_URL}/images/screen/${this.screenObj.name}.jpg`} style={style} />
