@@ -1,25 +1,53 @@
+//ストーリ
 const TriggerConstant  = [
-  {
+  {//scene:a
     triggerId:'1',
     triggerType:"button",
     nextGameButtonParam:"0",
-    nextScreenParam:"1",
-    nextMessageBoxParam:"1"
+    nextScreenParam:"2",
+    nextMessageBoxParam:"1",
+    nextSelectButtonParam:"0"
   },
-  {
+  {//scene:b
+    triggerId:'1',
+    triggerType:"messageBox",
+    nextGameButtonParam:"0",
+    nextScreenParam:"2",
+    nextMessageBoxParam:"2",
+    nextSelectButtonParam:"0"
+  },
+  {//scene:b
     triggerId:'2',
-    triggerType:"button",
-    nextGameButtonParam:"1",
-    nextScreenParam:"1",
-    nextMessageBoxParam:"1"
+    triggerType:"messageBox",
+    nextGameButtonParam:"0",
+    nextScreenParam:"2",
+    nextMessageBoxParam:"3",
+    nextSelectButtonParam:"0"
   },
-  {
+  {//scene:b
     triggerId:'3',
-    triggerType:"button",
-    nextGameButtonParam:"1",
-    nextScreenParam:"1",
-    nextMessageBoxParam:"1"
-  }
+    triggerType:"messageBox",
+    nextGameButtonParam:"0",
+    nextScreenParam:"2",
+    nextMessageBoxParam:"0",
+    nextSelectButtonParam:"1"
+  },
+  {//scene:b
+    triggerId:'1000',
+    triggerType:"selectButton",
+    nextGameButtonParam:"0",
+    nextScreenParam:"2",
+    nextMessageBoxParam:"4",
+    nextSelectButtonParam:"0"
+  },
+    {//scene:b
+      triggerId:'1001',
+      triggerType:"selectButton",
+      nextGameButtonParam:"0",
+      nextScreenParam:"2",
+      nextMessageBoxParam:"5",
+      nextSelectButtonParam:"0"
+    }
 ]
 
 export default TriggerConstant

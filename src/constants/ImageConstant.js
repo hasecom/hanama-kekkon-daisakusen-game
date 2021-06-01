@@ -1,10 +1,10 @@
 const ImageConstant  = [
-  {
-    param:'1',
-    name:"1",
-    overview:"起動画面"
+  {//scene:a
+      param:'1',
+      name:"1",
+      overview:"起動画面"
   },
-  {
+  {//scene:b
     param:'2',
     name:"2",
     overview:""

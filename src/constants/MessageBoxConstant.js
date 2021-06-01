@@ -1,20 +1,32 @@
 const MessageBoxConstant  = [
-  {
+  {//scene:b
     param:'1',
     message:"俺と、、、、、結婚してくれ。",
-    who:"男",
-    overview:"起動画面"
+    who:"かれぴ",
+    overview:""
   },
-  {
+  {//scene:b
     param:'2',
-    message:"1",
-    who:"男",
+    message:"お前を悪いようにはしない。",
+    who:"かれぴ",
     overview:""
   },
   {
     param:'3',
-    message:"1",
-    who:"男",
+    message:"だから・・・・だから、お願いだ。",
+    who:"かれぴ",
+    overview:""
+  },
+  {
+    param:'4',
+    message:"....。",
+    who:"かれぴ",
+    overview:""
+  },
+  {
+    param:'5',
+    message:"あざます。",
+    who:"かれぴ",
     overview:""
   }
 ]

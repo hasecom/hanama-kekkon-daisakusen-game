@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types';
+
 const style ={
   position:"relative",
-  textAlign:"center"
+  textAlign:"center",
 }
 class GameButton extends React.Component {
   constructor(props){
     super(props);
+
   }
   handleClick() {
     const {triggerName,buttonParam} = this.props;

@@ -18,9 +18,9 @@ class MessageBox extends React.Component {
     return(
       <>
         { !isShow &&
-          <div className="nes-container is-dark with-title" style={style}>
+          <div className="nes-container is-dark with-title" style={style} onClick={() => {this.handleClick()}} >
             <p className="title">{this.messageObj.who}</p>
-            <p>{this.messageObj.message}</p>
+            <p className="messageBoxContext">{this.messageObj.message}</p>
           </div>
         }
       </>
