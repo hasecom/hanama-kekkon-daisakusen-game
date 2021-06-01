@@ -14,7 +14,6 @@ class MessageBox extends React.Component {
   }
   render(){
     this.messageObj = (this.props.message.filter((obj) => obj.param === this.props.messageParam))[0];
-    console.log(this.messageObj)
     const isShow = this.props.messageParam < 1;
     return(
       <>
