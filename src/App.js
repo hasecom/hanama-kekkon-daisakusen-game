@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
 import GameButton from "./components/GameButton"
 import Screen from "./components/Screen"
+import MessageBox from "./components/MessageBox"
 import ImageConstant from "./constants/ImageConstant"
 import ButtonConstant from "./constants/ButtonConstant"
+import MessageBoxConstant from "./constants/MessageBoxConstant"
 import triggerConstant from "./constants/TriggerConstant"
 import Neo from "./assets/css/neo.min.css"
 
@@ -13,7 +15,8 @@ class App extends React.Component{
       triggerId:'1',
       triggerType:"button",
       nextGameButtonParam:"1",
-      nextScreenParam:"1"
+      nextScreenParam:"1",
+      nextMessageBoxParam:"0"
     };
     this.updateState = this.updateState.bind(this);
   }
@@ -26,6 +29,7 @@ class App extends React.Component{
         triggerType:updateData.triggerType,
         nextGameButtonParam:updateData.nextGameButtonParam,
         nextScreenParam:updateData.nextScreenParam,
+        nextMessageBoxParam:updateData.nextMessageBoxParam
     });
   }
   render(){
@@ -34,6 +38,7 @@ class App extends React.Component{
       <Screen display={ImageConstant} screenParam={this.state.nextScreenParam} triggerName="screen" />
       <div id="controller">
         <GameButton message={ButtonConstant} buttonParam={this.state.nextGameButtonParam} callbackMethod={this.updateState} triggerName="button" />
+        <MessageBox message={MessageBoxConstant} messageParam={this.state.nextMessageBoxParam} callbackMethod={this.updateState} triggerName="messageBox" />
       </div>
     </div>
     )

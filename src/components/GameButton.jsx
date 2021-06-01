@@ -14,12 +14,17 @@ class GameButton extends React.Component {
   }
   render(){
     this.buttonObj = (this.props.message.filter((obj) => obj.param === this.props.buttonParam))[0];
+    const isShow = this.props.buttonParam < 1;
     return(
-      <div style={style}>
-        <button type="button" className="nes-btn" onClick={() => {this.handleClick()}}>
-          {this.buttonObj.message}
-        </button>
-      </div>
+      <>
+        { !isShow &&
+          <div style={style}>
+            <button type="button" className="nes-btn" onClick={() => {this.handleClick()}}>
+              {this.buttonObj.message}
+            </button>
+          </div>
+        }
+      </>
     )
   }
 }

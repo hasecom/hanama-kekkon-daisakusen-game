@@ -16,10 +16,15 @@ class Screen extends React.Component{
   }
   render(){
     this.screenObj = (this.props.display.filter((obj) => obj.param === this.props.screenParam))[0];
+    const isShow = this.props.screenParam < 1;
     return(
-      <div>
-        <img src={`${process.env.PUBLIC_URL}/images/screen/${this.screenObj.name}.jpg`} style={style} />
-      </div>
+      <>
+        { !isShow &&
+          <div>
+            <img src={`${process.env.PUBLIC_URL}/images/screen/${this.screenObj.name}.jpg`} style={style} />
+          </div>
+        }
+      </>
     )
   }
 }
