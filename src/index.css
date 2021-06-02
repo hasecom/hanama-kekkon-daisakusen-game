@@ -1,18 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  font-family: 'Yusei Magic', sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 html{
   width:100%;
   height:100%;
@@ -29,4 +19,34 @@ body,#root,#app{
 }
 .messageBoxContext{
   font-size:16px;
+}
+
+#front{
+  position: fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  height:100%;
+  width:100%;
+  background:rgba(45, 52, 54,0.8);
+  z-index:1000;
+  padding:30% 15px;
+}
+._title{
+  color:white;
+  font-size:30px;
+  font-weight:bold;
+}
+.text-center{
+  text-align: center;
+}
+.endBtnWrap{
+  position:absolute;
+  bottom:50px;
+  right:0;
+  left:0;
+}
+#topText{
+  position: absolute;
 }

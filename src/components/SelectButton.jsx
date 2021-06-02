@@ -13,7 +13,7 @@ const selectButtonWrapStyle = {
 class SelectButton extends React.Component {
   constructor(props){
     super(props);
-
+    
   }
   handleClick(selectButtonParam) {
     const {triggerName} = this.props;

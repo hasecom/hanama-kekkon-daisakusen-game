@@ -19,13 +19,49 @@ const MessageBoxConstant  = [
   },
   {
     param:'4',
-    message:"....。",
+    message:"ぽっ",
     who:"かれぴ",
     overview:""
   },
   {
     param:'5',
-    message:"あざます。",
+    message:"・・・・・。",
+    who:"かれぴ",
+    overview:""
+  },
+  {
+    param:'6',
+    message:"おい、おい！！！",
+    who:"？",
+    overview:""
+  },
+  {
+    param:'7',
+    message:"おい、おい！！！",
+    who:"？",
+    overview:""
+  },
+  {
+    param:'8',
+    message:"起きろ！いつまで寝てるんだ？",
+    who:"かれぴ",
+    overview:""
+  },
+  {
+    param:'9',
+    message:"起きろ！いつまで寝てるんだ？",
+    who:"かれぴ",
+    overview:""
+  },
+  {
+    param:'10',
+    message:"いい夢見てたようだね。結婚する夢でも見てたのか？",
+    who:"かれぴ",
+    overview:""
+  },
+  {
+    param:'11',
+    message:"夢の中で俺以外の人間と結婚するなんて許・さ・な・い",
     who:"かれぴ",
     overview:""
   }
