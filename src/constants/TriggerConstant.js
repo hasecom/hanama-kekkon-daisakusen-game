@@ -1,6 +1,6 @@
 //ストーリ
 const TriggerConstant  = [
-  {//scene:a
+  {
     triggerId:'0',
     triggerType:"0",
     nextGameButtonParam:"1",
@@ -8,7 +8,7 @@ const TriggerConstant  = [
     nextMessageBoxParam:"0",
     nextSelectButtonParam:"0"
   },
-  {//scene:a
+  {
     triggerId:'1',
     triggerType:"button",
     nextGameButtonParam:"0",
@@ -16,7 +16,7 @@ const TriggerConstant  = [
     nextMessageBoxParam:"1",
     nextSelectButtonParam:"0"
   },
-  {//scene:b
+  {
     triggerId:'1',
     triggerType:"messageBox",
     nextGameButtonParam:"0",
@@ -24,7 +24,7 @@ const TriggerConstant  = [
     nextMessageBoxParam:"2",
     nextSelectButtonParam:"0"
   },
-  {//scene:b
+  {
     triggerId:'2',
     triggerType:"messageBox",
     nextGameButtonParam:"0",
@@ -32,7 +32,7 @@ const TriggerConstant  = [
     nextMessageBoxParam:"3",
     nextSelectButtonParam:"0"
   },
-  {//scene:b
+  {
     triggerId:'3',
     triggerType:"messageBox",
     nextGameButtonParam:"0",
@@ -40,7 +40,9 @@ const TriggerConstant  = [
     nextMessageBoxParam:"0",
     nextSelectButtonParam:"1"
   },
-  {//scene:b true ====================
+  {//================================
+  //●夢かれぴに嫉妬=====================
+  //==================================
     triggerId:'1000',
     triggerType:"selectButton",
     nextGameButtonParam:"0",
@@ -48,7 +50,7 @@ const TriggerConstant  = [
     nextMessageBoxParam:"4",
     nextSelectButtonParam:"0"
   },
-  {//scene:b true
+  {
     triggerId:'4',
     triggerType:"messageBox",
     nextGameButtonParam:"0",
@@ -56,7 +58,7 @@ const TriggerConstant  = [
     nextMessageBoxParam:"6",
     nextSelectButtonParam:"0"
   },
-  {//scene:b true
+  {
     triggerId:'6',
     triggerType:"messageBox",
     nextGameButtonParam:"0",
@@ -64,7 +66,7 @@ const TriggerConstant  = [
     nextMessageBoxParam:"8",
     nextSelectButtonParam:"0"
   },
-  {//scene:b true
+  {
     triggerId:'8',
     triggerType:"messageBox",
     nextGameButtonParam:"0",
@@ -72,7 +74,7 @@ const TriggerConstant  = [
     nextMessageBoxParam:"10",
     nextSelectButtonParam:"0"
   },
-  {//scene:b true
+  {
     triggerId:'10',
     triggerType:"messageBox",
     nextGameButtonParam:"0",
@@ -80,38 +82,49 @@ const TriggerConstant  = [
     nextMessageBoxParam:"11",
     nextSelectButtonParam:"0"
   },
-  {//scene:b true
+  {
     triggerId:'11',
     triggerType:"messageBox",
     nextGameButtonParam:"0",
     nextScreenParam:"7",
     nextMessageBoxParam:"0",
     nextSelectButtonParam:"0"
+    //==============================
+    //●夢かれぴに嫉妬-終了=============
+    //==============================
   },
-    {//scene:b false==================
-      triggerId:'1001',
-      triggerType:"selectButton",
-      nextGameButtonParam:"0",
-      nextScreenParam:"4",
-      nextMessageBoxParam:"5",
-      nextSelectButtonParam:"0"
-    },
-    {//scene:b false
-      triggerId:'5',
-      triggerType:"messageBox",
-      nextGameButtonParam:"0",
-      nextScreenParam:"4",
-      nextMessageBoxParam:"7",
-      nextSelectButtonParam:"0"
-    },
-      {//scene:b false
-        triggerId:'7',
-        triggerType:"messageBox",
-        nextGameButtonParam:"0",
-        nextScreenParam:"5",
-        nextMessageBoxParam:"9",
-        nextSelectButtonParam:"0"
-      },
+  {
+    triggerId:'1001',
+    triggerType:"selectButton",
+    nextGameButtonParam:"0",
+    nextScreenParam:"4",
+    nextMessageBoxParam:"5",
+    nextSelectButtonParam:"0"
+  },
+  {
+    triggerId:'5',
+    triggerType:"messageBox",
+    nextGameButtonParam:"0",
+    nextScreenParam:"4",
+    nextMessageBoxParam:"7",
+    nextSelectButtonParam:"0"
+  },
+  {
+    triggerId:'7',
+    triggerType:"messageBox",
+    nextGameButtonParam:"0",
+    nextScreenParam:"5",
+    nextMessageBoxParam:"9",
+    nextSelectButtonParam:"0"
+  },
+  {
+    triggerId:'9',
+    triggerType:"messageBox",
+    nextGameButtonParam:"0",
+    nextScreenParam:"6",
+    nextMessageBoxParam:"12",
+    nextSelectButtonParam:"0"
+  },
 ]
 
 export default TriggerConstant

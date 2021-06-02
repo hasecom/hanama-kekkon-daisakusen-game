@@ -32,13 +32,13 @@ const MessageBoxConstant  = [
   {
     param:'6',
     message:"おい、おい！！！",
-    who:"？",
+    who:"？？？",
     overview:""
   },
   {
     param:'7',
     message:"おい、おい！！！",
-    who:"？",
+    who:"？？？",
     overview:""
   },
   {
@@ -62,6 +62,12 @@ const MessageBoxConstant  = [
   {
     param:'11',
     message:"夢の中で俺以外の人間と結婚するなんて許・さ・な・い",
+    who:"かれぴ",
+    overview:""
+  },
+  {
+    param:'12',
+    message:"うなされてたけど大丈夫？",
     who:"かれぴ",
     overview:""
   }
