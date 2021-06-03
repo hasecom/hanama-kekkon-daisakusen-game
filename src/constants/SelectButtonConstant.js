@@ -35,6 +35,51 @@ const SelectButtonConstant  = [
   nextParam02:"1007",
   overview:""
 },
+{
+  param:'5',
+  question:"残業する？",
+  selectMessage01:"はい",
+  selectMessage02:"いいえ",
+  nextParam01:"1008",
+  nextParam02:"1009",
+  overview:""
+},
+{
+  param:'6',
+  question:"タクシーを使う？",
+  selectMessage01:"はい",
+  selectMessage02:"いいえ",
+  nextParam01:"1010",
+  nextParam02:"1011",
+  overview:""
+},
+{
+  param:'7',
+  question:"かれぴの家にいってみる。",
+  selectMessage01:"はい",
+  selectMessage02:"いいえ",
+  nextParam01:"1012",
+  nextParam02:"1013",
+  overview:""
+},
+{
+  param:'8',
+  question:"今夜空いてる？",
+  selectMessage01:"はい",
+  selectMessage02:"いいえ",
+  nextParam01:"1014",
+  nextParam02:"1015",
+  overview:""
+},
+{
+  param:'9',
+  question:"結婚する？",
+  selectMessage01:"はい",
+  selectMessage02:"いいえ",
+  nextParam01:"1016",
+  nextParam02:"1017",
+  overview:""
+},
 ]
 
 export default SelectButtonConstant
