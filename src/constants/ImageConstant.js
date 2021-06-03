@@ -33,6 +33,41 @@ const ImageConstant  = [
     param:'7',
     name:"7",
     overview:""
+  },
+  {
+    param:'8',
+    name:"8",
+    overview:""
+  },
+  {
+    param:'9',
+    name:"9",
+    overview:""
+  },
+  {
+    param:'10',
+    name:"10",
+    overview:""
+  },
+  {
+    param:'11',
+    name:"11",
+    overview:""
+  },
+  {
+    param:'12',
+    name:"12",
+    overview:""
+  },
+  {
+    param:'13',
+    name:"13",
+    overview:""
+  },
+  {
+    param:'14',
+    name:"14",
+    overview:""
   }
 ]
 

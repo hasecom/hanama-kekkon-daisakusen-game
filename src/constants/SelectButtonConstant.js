@@ -1,5 +1,5 @@
 const SelectButtonConstant  = [
-  {//scene:a
+  {
       param:'1',
       question:"結婚する？",
       selectMessage01:"はい",
@@ -8,6 +8,33 @@ const SelectButtonConstant  = [
       nextParam02:"1001",
       overview:""
   },
+  {
+    param:'2',
+    question:"一緒に朝ごはんをつくる？",
+    selectMessage01:"はい",
+    selectMessage02:"いいえ",
+    nextParam01:"1002",
+    nextParam02:"1003",
+    overview:""
+},
+{
+  param:'3',
+  question:"ドレッシングを持ってきてもらう",
+  selectMessage01:"はい",
+  selectMessage02:"いいえ",
+  nextParam01:"1004",
+  nextParam02:"1005",
+  overview:""
+},
+{
+  param:'4',
+  question:"早く帰る？",
+  selectMessage01:"はい",
+  selectMessage02:"いいえ",
+  nextParam01:"1006",
+  nextParam02:"1007",
+  overview:""
+},
 ]
 
 export default SelectButtonConstant
